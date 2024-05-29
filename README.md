@@ -7,6 +7,13 @@ with a clean running [Chisel3](https://www.chisel-lang.org/) project.
 
 ## Make your own Chisel3 project
 
+### 修改记录
+
+- build.sc: 将依赖抽取到MyModule, 使得创建子工程更简单
+
+- Makefile: 选择子工程文件夹和包名, 进行全流程构建
+  - 目前强制绑定nvboard, 待学习后写一个新命令
+
 ### Dependencies
 
 #### JDK 8 or newer

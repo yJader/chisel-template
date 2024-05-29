@@ -29,6 +29,6 @@ trait MyModule extends SbtModule { m =>
   }
 }
 
-object %NAME%  extends MyModule { m =>
+object gcd extends MyModule { m =>
   override def millSourcePath = os.pwd // 子模块则修改为os.pwd / "moduleName"
 }
